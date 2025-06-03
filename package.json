@@ -1,0 +1,18 @@
+{
+  "name": "devops-node-starter",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "supertest": "^6.3.3",
+    "vitest": "^3.2.0"
+  }
+}

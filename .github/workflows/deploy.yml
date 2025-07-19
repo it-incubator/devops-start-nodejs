@@ -10,3 +10,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3  # Клонирует код из репозитория
+
+      - name: Установка зависимостей
+        run: npm ci
+
+      - name: Линтинг
+        run: npm run lint
+
+      - name: Запуск тестов
+        run: npm test
